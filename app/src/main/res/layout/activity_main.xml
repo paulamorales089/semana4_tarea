@@ -8,42 +8,44 @@
 
     <EditText
         android:id="@+id/espacio4"
-        android:layout_width="60dp"
+        android:layout_width="56dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="@+id/espacio3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/espacio3"
-        app:layout_constraintTop_toTopOf="@+id/espacio3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/espacio3"
-        android:layout_width="60dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginEnd="160dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="@+id/espacio2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/espacio2"
-        app:layout_constraintTop_toTopOf="@+id/espacio2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/espacio2"
-        android:layout_width="60dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginEnd="230dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="@+id/espacio1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/espacio1"
-        app:layout_constraintTop_toTopOf="@+id/espacio1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
@@ -84,7 +86,7 @@
 
     <Button
         android:id="@+id/sugarDaddy_boton"
-        android:layout_width="306dp"
+        android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="30dp"
         android:text="busca a tu host sugar daddy "
